@@ -10,11 +10,12 @@ object NumberAnalyser extends App {
 //      case IsWholeNumber(wholeNumber) => analyseWholeNumber(wholeNumber)
 //      case _ => analyseFloatingNumber(number)
 //    }
+    ???
   }
 
   private def analyseFloatingNumber(number: Double): String = {
     //TODO: tell how many fractional digits the number has
-    ""
+    ???
   }
 
   private def analyseWholeNumber(number: Int): String = {
@@ -28,5 +29,6 @@ object NumberAnalyser extends App {
 //      case /* positive */ => s"$number is a positive whole number"
 //      case _ => s"$number is a negative whole number"
 //    }
+    ???
   }
 }
