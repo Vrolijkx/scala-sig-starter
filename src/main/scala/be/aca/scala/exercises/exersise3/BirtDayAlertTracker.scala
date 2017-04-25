@@ -6,11 +6,11 @@ import java.time.LocalDate
 /**
   * Copyright (C) 25/04/2017 - REstore NV
   */
-class BirtDayAllertTracker {
+class BirtDayAlertTracker {
   private val nextBirthDays = Map(
     "kristof" -> new LocalDate(2017, 7, 2),
-    "Niels" -> new LocalDate(), //TODO fill in dates
-    "Bram" -> new LocalDate()
+    "Jan" -> new LocalDate(2017, 5, 12),
+    "Ronny" -> new LocalDate(2017, 4, 30)
   )
 
 

@@ -9,4 +9,9 @@
 
 ### Extra
  Write scala unit tests for the directionPuzzle solver using a FlatSpec or a FunSpec from scalaTest
+ 
+ 
+ 
+### Time left
+The above exercise is stolen from the advent of code. Explore the scala language with some other advent of code exercises.
 
