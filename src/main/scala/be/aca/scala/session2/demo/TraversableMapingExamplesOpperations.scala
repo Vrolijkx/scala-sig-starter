@@ -1,11 +1,10 @@
 package be.aca.scala.session2.demo
 
-import scala.math._
 
 /**
   * Copyright (C) 02/05/2017 - REstore NV
   */
-§object TraversableMapingExamplesOpperations extends App {
+object TraversableMapingExamplesOpperations extends App {
   //first show collection hierarchy
   val data: Traversable[Int] = 1 to 50
   mapExample(data)

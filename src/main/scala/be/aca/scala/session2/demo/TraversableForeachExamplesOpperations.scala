@@ -1,6 +1,5 @@
 package be.aca.scala.session2.demo
 
-import scala.math._
 
 /**
   * Copyright (C) 02/05/2017 - REstore NV
