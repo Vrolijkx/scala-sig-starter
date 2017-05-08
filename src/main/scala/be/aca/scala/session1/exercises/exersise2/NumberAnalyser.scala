@@ -5,7 +5,7 @@ object NumberAnalyser {
 
   def analyseNumber(number: Double): String = {
     number match {
-      case IsWholeNumber(wholeNumber) => analyseWholeNumber(wholeNumber)
+      case WholeNumber(wholeNumber) => analyseWholeNumber(wholeNumber)
       case _ => analyseFloatingNumber(number)
     }
   }

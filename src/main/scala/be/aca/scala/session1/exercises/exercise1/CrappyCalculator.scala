@@ -6,6 +6,7 @@ package be.aca.scala.session1.exercises.exercise1
 object CrappyCalculator extends App {
   val sum = createSum(args)
   val product = createProduct(args)
+
   println(
     s"""${args.mkString(",")}
        |sum: $sum
