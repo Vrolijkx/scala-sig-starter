@@ -1,6 +1,5 @@
 package be.aca.scala.session2.demo
 
-import java.text.DateFormat
 import java.time.LocalDate
 
 object HighOrderFunctions {
