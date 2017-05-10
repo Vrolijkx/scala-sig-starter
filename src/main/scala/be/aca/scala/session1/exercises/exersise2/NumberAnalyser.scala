@@ -1,7 +1,8 @@
 package be.aca.scala.session1.exercises.exersise2
 
-
 object NumberAnalyser {
+
+
 
   def analyseNumber(number: Double): String = {
     number match {

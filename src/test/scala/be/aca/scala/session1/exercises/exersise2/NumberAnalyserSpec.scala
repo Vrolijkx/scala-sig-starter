@@ -6,11 +6,11 @@ import org.scalatest.{FlatSpec, Matchers}
 class NumberAnalyserSpec extends FlatSpec with Matchers {
   import NumberAnalyser._
 
+
   "analyseNumber" should "analyse a positive whole number divisible by 3" in {
     val output = analyseNumber(30)
 
     output shouldBe "30 is a positive whole number divisible by 3"
-
   }
 
   it should "analyse a negative whole number divisible by 2" in {
@@ -40,3 +40,4 @@ class NumberAnalyserSpec extends FlatSpec with Matchers {
 
 
 }
+

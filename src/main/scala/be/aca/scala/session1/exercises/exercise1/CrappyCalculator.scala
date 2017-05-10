@@ -6,20 +6,23 @@ package be.aca.scala.session1.exercises.exercise1
 object CrappyCalculator extends App {
   val sum = createSum(args)
   val product = createProduct(args)
+  println(s"sum: ${createSum(args)}")
 
-  println(
-    s"""${args.mkString(",")}
-       |sum: $sum
-       |product: $product
-     """.stripMargin
-  )
 
-  def createSum(arguments: Array[String]): Double = {
-    arguments.map(_.toDouble).sum
+  def createSum(args: Array[String]): Double = {
+    var sum = 0d
+
+    for(argument <- args) {
+//      sum += argument.toDouble.isV
+    }
+
+    sum
   }
 
-  def createProduct(arguments: Array[String]): Double = {
-    arguments.map(_.toDouble).product
+  def createProduct(args: Array[String]): Double = {
+    args.map(_.toDouble).reduce(_ * _)
   }
+
+
 
 }

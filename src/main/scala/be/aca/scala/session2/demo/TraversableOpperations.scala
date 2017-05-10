@@ -41,10 +41,8 @@ object TraversableOpperations extends App {
     //from right => left
     val sumOfSqrt2 = data.foldRight(0.0)((original, item) => original + sqrt(item))
 
-    //you have no control
-    val sumOfSqrt3 = data.fold(0.0)((original, item) => original + sqrt(item))
 
-    println(s"sum of sqrRoots: $sumOfSqrt1, $sumOfSqrt2, $sumOfSqrt3")
+    println(s"sum of sqrRoots: $sumOfSqrt1, $sumOfSqrt2")
   }
 
 
