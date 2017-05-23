@@ -1,4 +1,4 @@
-package be.aca.scala.demo
+package be.aca.scala.session1.demo
 
 
 class ApplyUnApply(var param1: String, var param2: String) {

@@ -1,4 +1,4 @@
-package be.aca.scala.exercises.exersise3
+package be.aca.scala.session1.exercises.exersise3
 
 import java.time.LocalDate
 

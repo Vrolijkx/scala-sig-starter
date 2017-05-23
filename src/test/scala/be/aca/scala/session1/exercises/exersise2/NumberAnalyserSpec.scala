@@ -1,4 +1,4 @@
-package be.aca.scala.exercises.exersise2
+package be.aca.scala.session1.exercises.exersise2
 
 import org.scalatest.{FlatSpec, Matchers}
 

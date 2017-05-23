@@ -1,4 +1,4 @@
-package be.aca.scala.demo
+package be.aca.scala.session1.demo
 
 /**
   * Copyright (C) 17/04/2017 - REstore NV
