@@ -25,13 +25,13 @@ object OptionExamples {
     val fallingBackOnOtherOption: Option[Long] = optionalMillis.orElse(getOptionalEvenMillis)
 
     //Only do this when communicating with java code
-    val fallingBackToNull: Long = optionalMillis.orNull
+    val fallingBackToNull: String = optionalMillis.map(_.toString).orNull
 
   }
 
   def fromNullables(): Unit = {
-    val someValue: Long = null
-    val otherValue: Long = 34
+    val someValue: String = null
+    val otherValue: String = "34"
 
     Option(someValue) == None
     Option(otherValue) == Some(otherValue)
