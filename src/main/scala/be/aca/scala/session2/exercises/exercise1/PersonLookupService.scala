@@ -23,6 +23,7 @@ class PersonLookupService(val dataSource:PersonDataSource) {
 
   def findPersonWithAllHobbies(hobbies: Seq[Hobby]) = {
     dataSource.allPersons.filter(_.hobbies.filter(h => hobbies.contains(h)).sortBy(_.name) == hobbies.sortBy(_.name))
+
   }
 
   def findPersonWithAnyHoby(hobbies: Seq[Hobby]) = {
